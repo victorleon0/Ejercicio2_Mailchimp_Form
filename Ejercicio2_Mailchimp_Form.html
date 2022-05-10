@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="touch-icon-192.png" type="favicon">
+    <link rel="stylesheet" type="text/css" href="./styles.css"/>
+    <title>Ejercicio 2 - Mailchimp Form</title>
+</head>
+<body>
+<main>
+    <div class="logocontainer">
+        <img width=200px src="https://www.nopcommerce.com/images/thumbs/0005310_mailchimp-synchronization-plugin.png" alt="Logo Mailchimp">
+    </div>
+    <div>
+        <form class="formcontainer" method="post" action="MAILCHIMP/FORM/TEST">
+        <h1>Welcome to Mailchimp</h1>
+        <h3>Find your people. Engage your customers. Build your brand. Do it all 
+            <br>with Mailchimp's Marketing platform. Allready have an account? <a href="htttp://mailchimp.com/login">Log in</a></h3>
+        <div class="useremail">
+            <label class="label" for="email">Email</label>
+            <input class="input" type="email" name="email">
+        </div>
+        <div class="username">    
+            <label class="label" for="username">Username</label>
+            <input class="input" type="text" name="username">
+        </div>
+        <div class="userpassword">
+            <label class="label" for="password">Password</label>
+            <input class="input" type="password" name="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$">
+        </div>
+        <div class="required">
+            <ul>
+                <li>One lowercase character</li>
+                <li>One upercase character</li>
+                <li>One special character</li>
+                <li>8 characters minimum</li>
+                <li>One number</li>
+            </ul>
+        </div>
+        <div class="signbutton">
+            <button type="submit" name="signup">Sign Up</button>
+        </div>
+        <div>
+            <input class="checkbox" name="checkbox" type="checkbox"> 
+            <span class="textoagree">I don't want to receive emails about new<br>
+                Mailchimp products, best practises, or <br>
+                special offers</span>
+            <h6>By clicking thr "Sign Up" button, you are creating a Mailchimp account, and you<br> agree to Mailchimp's <a href="htttp://mailchimp.com/login">Terms of Use</a> and <a href="htttp://mailchimp.com/login">Privacy Policy</a></h6>
+        </div>
+        </form>
+    </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+.logocontainer{
+    position: relative;
+    float: left;
+    clear: left;
+    padding: 30px;
+}
+
+.formcontainer{
+    position: absolute;
+    margin-left: 400px;
+    height: auto;
+    float:right;
+    clear: top;
+    
+
+}
+.useremail{
+    display: block;
+    padding: 20px;
+}
+.username{
+    display: block;
+    padding: 20px;
+
+}
+.userpassword{
+    display: block;
+    padding: 20px;
+
+}
+.label{
+    display: block;
+    margin-bottom: 15px;
+    left: 0;
+}
+.input{
+    display: inline-block;
+    height: 35px;
+    width: 500px;
+}
+.checkbox{
+    display: inline;
+    height: 40px;
+
+}
+button{
+    display: inline;
+    width: 200px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    border-color: black;
+    border-color: black;
+    background-color: white;
+    opacity: 20%
+}
+.signbutton {
+    display: inline-block;
+}
+.textoagree {
+    display: inline-block;
+    margin-left: 50px;
+}
+.checkbox{
+    display: inline-block;
+    border-radius: 50%;
+}
